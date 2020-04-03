@@ -25,6 +25,7 @@ html,body{
 	clear:both;
 }
 
+/** Header**/
 
 header{
 	width:100%;
@@ -67,6 +68,73 @@ header .containner .menu nav ul li{
 header .containner .menu nav ul li a{
 	text-decoration:none;
 	color:#b4b4b4;
+	font-weight:bold;
+}
+
+/***/
+
+/** Section**/
+
+section.mosaico .containner .mosaico-single{
+	width:calc(100% / 6);
+	float:left;
+	
+	
+}
+section.mosaico .containner .img-mosaico-single{
+	width:100%;
+	padding-top:100%;
+	background:#ccc;
+	border:4px solid white;
+}
+
+section.servicos .containner{
+	max-width:1000px;
+	display:flex;
+	align-items:center;
+	position:relative;
+	left:0;
+	top:-60px;
+}
+section.servicos .containner .box-servicos{
+	text-align:center;
+	color:white;
+	
+	
+}
+section.servicos .containner .box-servicos h2{
+	margin-bottom:8px;
+	text-transform:uppercase;
+	font-size:19px;
+}
+section.servicos .containner .box-servicos p{
+	font-size:16px;
+	margin-bottom:8px;
+}
+section.servicos .containner .box-servicos:nth-of-type(1){
+	width:30%;
+	padding:35px 1%;
+	background-color: #576975;
+	
+}
+section.servicos .containner .box-servicos:nth-of-type(2){
+	width:40%;
+	padding:50px 2%;
+	background-color:#688293;
+	background-image:none;
+}
+
+section.servicos .containner .box-servicos:nth-of-type(3){
+	width:30%;
+	padding:35px  1%;
+	background-color:#576975;
+	
+}
+section.servicos .containner .box-servicos{
+	background-image:url("../img/icone_dente.png");
+	background-size:18px 18px;
+	background-position:50% 95%;
+	background-repeat:no-repeat;
 }
 
 
