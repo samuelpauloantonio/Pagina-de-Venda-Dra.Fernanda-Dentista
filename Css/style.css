@@ -33,42 +33,124 @@ header{
 }
 
 header .containner .logo{
-	width:30%;
 	float:left;
-
-	
 }
 header .containner .logo img{
 	width:236px;
 	float:left;
 }
 
-header .containner .menu{
+header .containner .menu-desktop{
 	float:right;
 
 }
 
-header .containner .menu nav{
+header .containner .menu-desktop nav{
 	width:inherit;
 	float:right;
 }
 
-header .containner .menu nav ul{
+header .containner .menu-desktop nav ul{
 	padding:8px 0;
 	float:inherit;
 	list-style-type:none;
 }
 
-header .containner .menu nav ul li{
+header .containner .menu-desktop nav ul li{
 	display:inline-block;
 	padding:0 20px;
 	font-size:13px;
 	text-transform:uppercase;
 }
-header .containner .menu nav ul li a{
+header .containner .menu-desktop nav ul li a{
 	text-decoration:none;
 	color:#b4b4b4;
 	font-weight:bold;
+}
+header .containner .menu-desktop nav ul li a:hover{
+	text-decoration:none;
+	color:lightblue;
+	text-transform:uppercase;
+	border-bottom:3px groove black;
+	
+}
+
+
+header .containner .menu-mobile{
+	display:none;
+	width:28px;
+	height:28px;
+	float:right;
+	background-image: url("../img/menu-mobile.png");
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	transition:1s;
+
+	
+	
+}
+header .containner .menu-mobile:hover{
+	margin-bottom:130px;
+	
+}
+
+header .containner .menu-mobile nav ul{
+	transition:0.9s;
+	opacity:0;
+}
+header .containner .menu-mobile:hover nav ul{
+	opacity:1;
+	z-index:999;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:50px;
+	list-style-type:none;
+	padding: 8px 0;
+	text-align:center;
+	background-color:rgba(255, 255, 255, 0.863);
+	
+
+}
+header .containner .menu-mobile nav ul{
+	z-index:999;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:50px;
+	list-style-type:none;
+	padding: 8px 0;
+	text-align:center;
+	background-color:rgba(255, 255, 255, 0.863);
+	
+
+	
+}
+header .containner .menu-mobile nav ul:hover{
+	opacity:1;
+}
+
+
+header .containner .menu-mobile nav ul li{
+	font-weight:bold;
+	font-size:13px;
+	padding:5px 10px;
+	
+	
+}
+header .containner .menu-mobile nav ul li a{
+	text-decoration:none;
+	color:#ccc;
+	text-transform:uppercase;
+}
+header .containner .menu-mobile nav ul li a:hover{
+	text-decoration:none;
+	color:lightblue;
+	text-transform:uppercase;
+	border-bottom:3px groove black;
+	
 }
 
 /***/
@@ -109,7 +191,7 @@ section.servicos .containner .box-servicos h2{
 }
 section.servicos .containner .box-servicos p{
 	font-size:16px;
-	margin-bottom:8px;
+	margin-bottom:20px;
 }
 section.servicos .containner .box-servicos:nth-of-type(1){
 	width:30%;
@@ -133,7 +215,7 @@ section.servicos .containner .box-servicos:nth-of-type(3){
 section.servicos .containner .box-servicos{
 	background-image:url("../img/icone_dente.png");
 	background-size:18px 18px;
-	background-position:50% 95%;
+	background-position:50% 90%;
 	background-repeat:no-repeat;
 }
 
@@ -188,6 +270,14 @@ section.perfil-containner .containner .perfil-wraper2 .texto-perfil p{
 /**RESPOSIVO**/
 
 @media screen and (max-width: 768px){
+	
+	header .containner .menu-desktop{
+		display:none;
+	}
+	header .containner .menu-mobile{
+		display:block;
+		
+	}
 	section.servicos .containner{
 		/**  max-width:900px;
 		display:flex;
