@@ -221,46 +221,41 @@ section.servicos .containner .box-servicos{
 
 /** Perfil-containner**/
 
-section.perfil-containner .containner{
-	max-width:900px;
-}
+
 section.perfil-containner .perfil-wraper{
-	position:relative;
-	padding-top:50%;
-	
-	
-}
-section.perfil-containner .perfil-wraper2{
-	position:absolute;
-	left:0;
-	top:0;
-	display:flex;
-	align-items:center;
 	width:100%;
 	height:100%;
+	padding: 0 20px;
 
 }
 
-section.perfil-containner .perfil-wraper2 .img-perfil{
-	width: 40%;
-	height: 100%;
-	background-image: url("../img/img_perfil.png");
-	background-repeat:no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
+
+section.perfil-containner .perfil-wraper .img-perfil{
+	width:40%;
+	float:left;
+	padding-right: 20px;
+	margin-bottom:80px;
 }
 
-section.perfil-containner .containner  .perfil-wraper2 .texto-perfil{
-	width:60%;
-	padding: 0 30px;
+.img-perfil img{
+	width:100%;
+	float:left;
 	
 }
-section.perfil-containner .containner .perfil-wraper2 .texto-perfil h2{
+section.perfil-containner .containner  .perfil-wraper .texto-perfil{
+	float:right;
+	width:60%;
+	height:auto;
+	
+	
+	
+}
+section.perfil-containner .containner .perfil-wraper .texto-perfil h2{
 	margin-bottom:10px;
 	color: #698293;
 	font-size:20px;
 }
-section.perfil-containner .containner .perfil-wraper2 .texto-perfil p{
+section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	color:#4b4b4b;
 	
 }
@@ -272,8 +267,8 @@ section.perfil-containner .containner .perfil-wraper2 .texto-perfil p{
 /**Section-Videos**/
 	section.videos{
 		width:100%;
-		margin-top:80px;
-	
+		clear:both;
+		padding: 0 20px;
 	}
 
 	section.videos .box-videos{
@@ -284,6 +279,7 @@ section.perfil-containner .containner .perfil-wraper2 .texto-perfil p{
 		position:relative;
 		top:0;
 		left:0;
+
 	}
 	
 	section.videos .box-videos .iframe{
@@ -297,8 +293,26 @@ section.perfil-containner .containner .perfil-wraper2 .texto-perfil p{
 		background-size:100%;
 		background-repeat:no-repeat;
 	}
-/****/
 
+	section.tratamentos{
+		width:100%;
+		margin-top:60px;
+		clear:both;
+		padding-right:2%;
+		padding-left:2%;
+		
+	}
+	
+	section.tratamentos .containner{
+		padding-top:30px ;
+		
+	}
+	
+	.tratamentos .tratamentos-single{
+		width:33.3%;
+		float:left;
+	
+	}
 
 /**RESPOSIVO**/
 
@@ -350,40 +364,58 @@ section.servicos .containner .box-servicos p{
 		font-size:13px;
 	}
 	
-	section.perfil-containner .perfil-wraper2{
-		display:inline-block;
-		text-align:center;
-		padding:0 4%;
-	
-	}
-	section.perfil-containner .perfil-wraper2 .img-perfil{
-		width: 50%;
-		padding-top:70%;
-		height: auto;
-		display:inline-block;
-		margin-bottom:20px;
-	
-	}
 
-section.perfil-containner .containner  .perfil-wraper2 .texto-perfil {
+section.perfil-containner .perfil-wraper{
+	width:100%;
+	height:100%;
+	padding: 0 20px;
+
+}
+
+
+section.perfil-containner .perfil-wraper .img-perfil{
+	width:100%;
+	float:none;
+	padding-right: 20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.img-perfil img{
+	max-width:400px;
+	float:none;
+	display:inline-block;
+	
+}
+section.perfil-containner .containner  .perfil-wraper .texto-perfil{
+	float:none;
+	width:100%;
+	height:auto;
+	
+	
+	
+}
+
+section.perfil-containner .containner  .perfil-wraper .texto-perfil {
 		width:100%;
 		padding:0 30px;
 		display:inline-block;
-		
+		margin: 20px 0;
 	
 	}
 	
-section.perfil-containner .containner  .perfil-wraper2 .texto-perfil h2{
-	text-align:left;
+section.perfil-containner .containner  .perfil-wraper .texto-perfil h2{
+	text-align:center;
 }
-section.perfil-containner .containner  .perfil-wraper2 .texto-perfil p{
+section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
 	text-align:justify;
+
 }
 
 	section.videos{
 		width:100%;
-		margin-top:80px;
-		padding: 0 50px;
+		margin-top:-10px;
+		padding: 10px 50px;
 	
 	}
 
@@ -393,7 +425,7 @@ section.perfil-containner .containner  .perfil-wraper2 .texto-perfil p{
 		float:none;
 		border:5px solid white;
 		position:relative;
-		top:435px;
+		top:0;
 		left:0;
 	}
 
@@ -407,17 +439,15 @@ section.perfil-containner .containner  .perfil-wraper2 .texto-perfil p{
 	
 		}
 		
-		section.videos .box-videos{
-		width:100%;
-		padding-top:calc(100% * 0.6);
-		float:none;
-		border:5px solid white;
-		position:relative;
-		top:720px;
-		left:0;
-	}
-		
+		section.perfil-containner .containner  .perfil-wraper .texto-perfil h2{
+		text-align:center;
+		font-size:22px;
+		}
+		section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
+		text-align:justify;
+		font-size:14px;
 
+		}
 
 	
 }
