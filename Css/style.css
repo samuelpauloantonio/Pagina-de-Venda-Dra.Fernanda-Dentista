@@ -163,12 +163,14 @@ section.mosaico .containner .mosaico-single{
 	
 	
 }
-section.mosaico .containner .img-mosaico-single{
+section.mosaico .containner [class^="img-mosaico-single"]{
 	width:100%;
 	padding-top:100%;
 	background:#ccc;
 	border:4px solid white;
 }
+
+
 
 section.servicos .containner{
 	max-width:900px;
@@ -178,6 +180,88 @@ section.servicos .containner{
 	left:0;
 	top:-60px;
 }
+
+
+
+/**IMGS**/ 
+section.mosaico .containner .mosaico-single .img-mosaico-single1 {
+	background-image:url(../img/img-1.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single2 {
+	background-image:url(../img/img-2.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single3 {
+	background-image:url(../img/img-3.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single4 {
+	background-image:url(../img/img-4.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single5 {
+	background-image:url(../img/img-5.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single6 {
+	background-image:url(../img/img-6.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single7 {
+	background-image:url(../img/img-7.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single8 {
+	background-image:url(../img/img-8.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single9 {
+	background-image:url(../img/img-9.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+section.mosaico .containner .mosaico-single .img-mosaico-single10 {
+	background-image:url(../img/img-10.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single11 {
+	background-image:url(../img/img-11.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+section.mosaico .containner .mosaico-single .img-mosaico-single12 {
+	background-image:url(../img/img-12.png);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+/******/ 
+
+
 section.servicos .containner .box-servicos{
 	text-align:center;
 	color:white;
@@ -413,7 +497,72 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	
 	section.social .img-mosaico .img-mosaico-single:nth-of-type(9){
 		border-right:0;
+		background-image:url(../img/img-12.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
 	}
+	/**IMG-MOSAICO**/
+	
+	section.social .img-mosaico .img-mosaico-single:nth-of-type(1){
+		background-image:url(../img/img-1.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(2){
+		background-image:url(../img/img-2.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(3){
+		background-image:url(../img/img-8.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(6){
+		background-image:url(../img/img-6.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(4){
+		background-image:url(../img/img-4.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(5){
+		background-image:url(../img/img-5.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(7){
+		background-image:url(../img/img-7.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+		section.social .img-mosaico .img-mosaico-single:nth-of-type(8){
+		background-image:url(../img/img-3.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		
+	}
+	/******/
+	
+	
 	
 	section.social .facebook-social {
 		width:100%;
