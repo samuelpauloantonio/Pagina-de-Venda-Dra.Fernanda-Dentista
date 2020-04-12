@@ -389,6 +389,7 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	
 	section.tratamentos .containner{
 		padding-top:30px ;
+		text-align:center;
 		
 	}
 	
@@ -396,26 +397,30 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 		color:#698293;
 		font-size:18px;
 		text-transform:uppercase;
-		text-align:center;
 		padding:20px 0;
+		
 	}
 	
 	section.tratamentos .tratamentos-single{
 		width:33.3%;
 		float:left;
-		padding:10px;
+		padding:20px
+		
 	}
 	
 	section.tratamentos .tratamentos-single > h2 {
 		color:#737373;
-		font-size:18px;
-		padding:10px 0;
+		font-size:17px;
+		padding:15px 0;
+		
 		
 	}
 	
 	section.tratamentos .tratamentos-single > p{
 		font-size:13px;
 		color:#b4b4b4;
+		text-align:left;
+		
 	}
 	
 	/**Depoimentos **/
@@ -668,6 +673,53 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 		font-weight:normal;
 	}
 	
+	/****/
+	
+	/**Footer**/
+	footer .footer-2{
+		width:100%;
+		padding:40px 2%;
+		background-color:#688293;
+	}
+	
+	footer .footer-2 .footer-block{
+		width:33.3%;
+		display:inline-block;
+		margin-right:-4px;
+	}
+	
+	footer .footer-2 .footer-block h2{
+		font-size:18px;
+		color:rgb(255,255,255);
+		font-weight:normal;
+		margin-bottom:8px;
+		text-align:center;
+	}
+	
+	footer .footer-2 .footer-block p {
+		color:white;
+		font-size:14px;
+		text-align:center;
+		
+	}
+	
+	footer .logo-dank{
+		width:100%;
+		padding:12px 2%;
+		background-color:#576975;
+		text-align:center;
+	}
+	footer .logo-dank img{
+		display:inline-block;
+		width:100px;
+		height:16px;
+		
+	}
+	
+	
+	
+	
+	
 /**RESPOSIVO**/
 @media screen and (max-width: 1024px){
 		section.social .img-mosaico {
@@ -814,11 +866,18 @@ section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
 	
 	section.social .img-mosaico .img-mosaico-single:nth-of-type(1n + 4 ){
 		display:none;
+
 	}
+	
+	footer .footer-2 .footer-block{
+		width:100%;
+		display:block;
+		margin-right:-4px;
+		margin-top:30px;
+		}
+		
 }
 
-	
-	
 
 @media screen and (max-width: 580px){
 		section.perfil-containner .perfil-wraper2 .img-perfil{
@@ -837,11 +896,26 @@ section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
 		font-size:14px;
 
 		}
+		section.tratamentos .tratamentos-single > p{
+		font-size:13px;
+		color:#b4b4b4;
+		text-align:justify;
 		
+	}
 	
 		section.formulario form .w50{
 			width:100%;
+		
 		}
+		footer .footer-2 .footer-block{
+			width:100%;
+			display:block;
+			margin-top:30px;
+			
+		}
+		
+		
+	
 	
 }
 /****/
