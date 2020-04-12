@@ -244,7 +244,7 @@ section.perfil-containner .perfil-wraper .img-perfil{
 }
 section.perfil-containner .containner  .perfil-wraper .texto-perfil{
 	float:right;
-	width:60%;
+	width:50%;
 	height:auto;
 	
 	
@@ -296,7 +296,7 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 
 	section.tratamentos{
 		width:100%;
-		margin-top:60px;
+		margin:60px 0;
 		clear:both;
 		padding-right:2%;
 		padding-left:2%;
@@ -308,13 +308,160 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 		
 	}
 	
-	.tratamentos .tratamentos-single{
+	section.tratamentos .containner > h2 {
+		color:#698293;
+		font-size:18px;
+		text-transform:uppercase;
+		text-align:center;
+		padding:20px 0;
+	}
+	
+	section.tratamentos .tratamentos-single{
 		width:33.3%;
 		float:left;
+		padding:10px;
+	}
 	
+	section.tratamentos .tratamentos-single > h2 {
+		color:#737373;
+		font-size:18px;
+		padding:10px 0;
+		
+	}
+	
+	section.tratamentos .tratamentos-single > p{
+		font-size:13px;
+		color:#b4b4b4;
+	}
+	
+	/**Depoimentos **/
+	
+	section.depoimentos{
+		width:100%;
+	}
+	
+	section.depoimentos .containner {
+		max-width:500px;
+		text-align:center;
+	}
+	section.depoimentos .containner > h2{
+		text-align:center;
+		font-size:18px;
+		color:#576975;
+		padding:40px 0;
+	}
+	section.depoimentos .containner quote {
+		color:#b4b4b4;
+		font-size:15px;
+		display:inline-block
+		
+	}
+	section.depoimentos .containner .depoimento-single {
+		text-align:center;
 	}
 
+	section.depoimentos .depoimentos-single .nome-depoimento{
+		padding:12px 0;
+	}
+	section.depoimentos .depoimentos-single .nome-depoimento span{
+		display:inline-block;
+		color:#b4b4b4;
+		font-size:14px;
+		position:relative;
+		left:6px;
+		top: 6px;
+		vertical-align:top;
+	}
+	
+	section.depoimentos .depoimentos-single .nome-depoimento img{
+		width:32px;
+		height:32px;
+		border-radius:16px;
+	}
+	
+	
+	
+	section.social{
+		width:100%;
+		margin-top:20px;
+	}
+	Section.social .instagran-chamada{
+		width:100%;
+		text-align:center;
+		background:#98a5ae;
+		padding:40px 0;
+	}
+	
+	section.social .instagran-chamada p {
+		font-size:14px;
+		color:white;
+		padding:10px 0;
+		line-height:23px;
+	}
+	
+	section.social .img-mosaico {
+		width:100%;
+		padding:10px 0;
+	}
+	section.social .img-mosaico .img-mosaico-single {
+		width:calc(100% / 9);
+		padding-top:calc(100% / 9);
+		background:red;
+		float:left;
+		border-right:5px solid white;
+	}
+	
+	section.social .img-mosaico .img-mosaico-single:nth-of-type(9){
+		border-right:0;
+	}
+	
+	section.social .facebook-social {
+		width:100%;
+		background-color:#576975;
+		text-align:center;
+		padding:40px 0;
+		margin-bottom:10px ;
+	}
+	
+	section.social .facebook-social img{
+		display:inline-block;
+		padding:10px 0;
+	}
+	section.social .facebook-social p {
+		color:white;
+		font-size:14px;
+		line-height:23px;
+		padding:10px 0;
+
+	}
+	
+	
+	
+	
+	
+	
+	
 /**RESPOSIVO**/
+@media screen and (max-width: 1024px){
+		section.social .img-mosaico {
+		width:100%;
+		padding:10px 0;
+	}
+	section.social .img-mosaico .img-mosaico-single {
+		width:calc(100% / 6);
+		padding-top:calc(100% / 6);
+		background:red;
+		float:left;
+		border:5px solid white;
+	}
+	
+	section.social .img-mosaico .img-mosaico-single:nth-of-type(1n + 7 ){
+		display:none;
+	}
+}
+
+
+
 
 @media screen and (max-width: 768px){
 	
@@ -428,8 +575,23 @@ section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
 		top:0;
 		left:0;
 	}
+	
+	
+		section.social .img-mosaico .img-mosaico-single {
+		width:calc(100% / 3 );
+		padding-top:calc(100% / 3 );
+		background:red;
+		float:left;
+		border:5px solid white;
+	}
+	
+	section.social .img-mosaico .img-mosaico-single:nth-of-type(1n + 4 ){
+		display:none;
+	}
+}
 
-
+	
+	
 
 @media screen and (max-width: 580px){
 		section.perfil-containner .perfil-wraper2 .img-perfil{
