@@ -159,7 +159,8 @@ header .containner .menu-mobile nav ul li a:hover{
 
 section.mosaico .containner .mosaico-single{
 	width:calc(100% / 6);
-	float:left;
+	display:inline-block;
+	margin-right:-4px;
 	
 	
 }
@@ -358,7 +359,9 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	section.videos .box-videos{
 		width:calc(100% / 3);
 		padding-top:calc(33.3% * 0.6);
-		float:left;
+		float:none;
+		display:inline-block;
+		margin-right:-4px;
 		border:5px solid white;
 		position:relative;
 		top:0;
@@ -496,7 +499,8 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 		width:calc(100% / 9);
 		padding-top:calc(100% / 9);
 		background:red;
-		float:left;
+		display:inline-block;
+		margin-right:-4px;
 		border-right:5px solid white;
 	}
 	
