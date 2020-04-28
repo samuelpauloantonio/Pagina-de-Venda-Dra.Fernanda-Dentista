@@ -922,4 +922,34 @@ section.perfil-containner .containner  .perfil-wraper .texto-perfil p{
 	
 	
 }
+
+
+@media screen and (max-width: 400px){
+		section.tratamentos .tratamentos-single{
+		width:50%;
+		float:left;
+		padding:20px
+		
+	}
+	section.tratamentos .tratamentos-single p{
+		text-align:left;
+	}
+}
+
+
+@media screen and (max-width: 250px){
+	section.tratamentos .tratamentos-single{
+		width:100%;
+		float:none;
+	}
+	section.tratamentos .tratamentos-single p{
+		text-align:center;
+	}
+	
+	header .containner .logo img {
+    width: 173px;
+	
+	}
+
+}
 /****/
