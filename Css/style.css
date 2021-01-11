@@ -186,74 +186,74 @@ section.servicos .containner{
 
 /**IMGS**/ 
 section.mosaico .containner .mosaico-single .img-mosaico-single1 {
-	background-image:url(../img/img-1.png);
+	background-image:url(../img/img-1.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single2 {
-	background-image:url(../img/img-2.png);
+	background-image:url(../img/img-2.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single3 {
-	background-image:url(../img/img-3.png);
+	background-image:url(../img/img-3.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single4 {
-	background-image:url(../img/img-4.png);
+	background-image:url(../img/img-4.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single5 {
-	background-image:url(../img/img-5.png);
+	background-image:url(../img/img-5.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single6 {
-	background-image:url(../img/img-6.png);
+	background-image:url(../img/img-6.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single7 {
-	background-image:url(../img/img-7.png);
+	background-image:url(../img/img-7.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single8 {
-	background-image:url(../img/img-8.png);
+	background-image:url(../img/img-8.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single9 {
-	background-image:url(../img/img-9.png);
+	background-image:url(../img/img-9.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 
 section.mosaico .containner .mosaico-single .img-mosaico-single10 {
-	background-image:url(../img/img-10.png);
+	background-image:url(../img/img-10.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single11 {
-	background-image:url(../img/img-11.png);
+	background-image:url(../img/img-11.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 section.mosaico .containner .mosaico-single .img-mosaico-single12 {
-	background-image:url(../img/img-12.png);
+	background-image:url(../img/img-12.PNG);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -375,7 +375,7 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 		left:0;
 		width:100%;
 		height:100%;
-		background-image:url(../img/img-video.png);
+		background-image:url(../img/img-video.PNG);
 		background-position:center;
 		background-size:100%;
 		background-repeat:no-repeat;
@@ -506,7 +506,7 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	
 	section.social .img-mosaico .img-mosaico-single:nth-of-type(9){
 		border-right:0;
-		background-image:url(../img/img-12.png);
+		background-image:url(../img/img-12.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
@@ -514,56 +514,56 @@ section.perfil-containner .containner .perfil-wraper .texto-perfil p{
 	/**IMG-MOSAICO**/
 	
 	section.social .img-mosaico .img-mosaico-single:nth-of-type(1){
-		background-image:url(../img/img-1.png);
+		background-image:url(../img/img-1.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(2){
-		background-image:url(../img/img-2.png);
+		background-image:url(../img/img-2.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(3){
-		background-image:url(../img/img-8.png);
+		background-image:url(../img/img-8.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(6){
-		background-image:url(../img/img-6.png);
+		background-image:url(../img/img-6.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(4){
-		background-image:url(../img/img-4.png);
+		background-image:url(../img/img-4.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(5){
-		background-image:url(../img/img-5.png);
+		background-image:url(../img/img-5.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(7){
-		background-image:url(../img/img-7.png);
+		background-image:url(../img/img-7.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
 		
 	}
 		section.social .img-mosaico .img-mosaico-single:nth-of-type(8){
-		background-image:url(../img/img-3.png);
+		background-image:url(../img/img-3.PNG);
 		background-size:cover;
 		background-position:center;
 		background-repeat:no-repeat;
